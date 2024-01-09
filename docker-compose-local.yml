@@ -13,7 +13,7 @@ services:
       - "5000:5000"
     environment:
       - SQLALCHEMY_DATABASE_URI=postgresql://user:password@db:5432/course_registration
-      - webpageBaseUrl=https://gtregistration.com
+      - webpageBaseUrl=http://127.0.0.1:3000
     depends_on:
       - db
   db:
