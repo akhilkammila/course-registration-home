@@ -1,3 +1,6 @@
+Website it not up right now - might get it running for fall registration again.
+Basic bot (without the website, SQL databse, backend etc.) is here: https://github.com/akhilkammila/course-registration-bot
+
 Configurations
 - webpageBaseUrl in docker-compose needs to be set to the domain that the frontend is accessed at (for CORS, and for emails to work properly)
 - need to build the frontend & backend images
